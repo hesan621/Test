@@ -27,6 +27,7 @@ ob = bge.logic.getCurrentController().owner
 print("Hi World")
 print("GotoClass")
 print("Zebooo")
+print("Last")
 
 def updateAngles():
 	ser.write("a".encode('UTF-8'))
