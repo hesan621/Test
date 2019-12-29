@@ -24,6 +24,7 @@ source = scene.objects
 # Get the whole Armature
 main_arm = source.get('Armature')
 ob = bge.logic.getCurrentController().owner
+print("Hi World")
 
 
 def updateAngles():
