@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Windows Command Prompt LS Equivalent Dir | SkimFeed.com</title>
+<!-- Platform WordPress Framework By PageLines - www.PageLines.com -->
+<link rel="shortcut icon" href="http://skimfeed.com/blog/wp-content/themes/platform/admin/images/favicon-pagelines.ico" type="image/x-icon">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="alternate" type="application/rss+xml" title="SkimFeed.com » Feed" href="https://skimfeed.com/blog/feed/">
+<link rel="alternate" type="application/rss+xml" title="SkimFeed.com » Comments Feed" href="https://skimfeed.com/blog/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="SkimFeed.com » Windows Command Prompt LS Equivalent Dir Comments Feed" href="https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/feed/">
+		<script type="text/javascript" async="" src="./Windows Command Prompt LS Equivalent Dir_files/ga.js.download"></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/skimfeed.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Windows Command Prompt LS Equivalent Dir_files/wp-emoji-release.min.js.download" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="pagelines-stylesheet-css" href="./Windows Command Prompt LS Equivalent Dir_files/style.css" type="text/css" media="all">
+<!--[if IE 7]>
+<link rel='stylesheet' id='ie7-style-css'  href='https://skimfeed.com/blog/wp-content/themes/platform/css/ie7.css?ver=1.4.2' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="cptchStylesheet-css" href="./Windows Command Prompt LS Equivalent Dir_files/style(1).css" type="text/css" media="all">
+<script type="text/javascript" src="./Windows Command Prompt LS Equivalent Dir_files/jquery.js.download"></script>
+<script type="text/javascript" src="./Windows Command Prompt LS Equivalent Dir_files/jquery-migrate.min.js.download"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://skimfeed.com/blog/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://skimfeed.com/blog/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Symbolic Links in Windows for Pointing a Folder to Another Folder on an External Hard Drive or SSD" href="https://skimfeed.com/blog/symbolic-links-in-windows-for-pointing-a-folder-to-another-folder-on-an-external-hard-drive-or-ssd/">
+<link rel="next" title="How much space does OSX Mountain Lion take on a Fresh Install?" href="https://skimfeed.com/blog/how-much-space-does-osx-mountain-lion-take-on-a-fresh-install/">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/">
+<link rel="shortlink" href="https://skimfeed.com/blog/?p=252">
+<style type="text/css" id="dynamic-css">
+h1, h2, h3, h4, h5, h6, .site-title{font-family:Georgia, "Times New Roman", Times, serif;letter-spacing:0.00em;text-transform:none;font-weight:normal;font-variant:normal;font-style:normal;}body, .font1, .font-primary, .commentlist{font-family:Georgia, "Times New Roman", Times, serif;letter-spacing:0.00em;text-transform:none;font-weight:normal;font-variant:normal;font-style:normal;}.font2, .font-sub, ul.main-nav li a, #secondnav li a, .metabar, .subtext, .subhead, .widget-title, .post-comments, .reply a, .editpage, #pagination .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, #featurenav a, .pagelines-blink, .ftitle small{font-family:"Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;letter-spacing:0.10em;text-transform:uppercase;font-weight:normal;font-variant:normal;font-style:normal;}.fixed_width #page, .fixed_width #footer, .canvas #page-canvas{width:980px}#page-main .content{width:962px}#site{min-width:962px}#site .content, .wcontent, #primary-nav ul.main-nav.nosearch{width:960px}#primary-nav ul.main-nav{width:740px}.fullwidth #pagelines_content #column-main, .fullwidth .wmain, .fullwidth #buddypress-page #container{width:960px}.fullwidth #pagelines_content #sidebar1, .fullwidth #buddypress-page #sidebar1{width:0px}.fullwidth #pagelines_content #sidebar2, .fullwidth #buddypress-page #sidebar2{width:0px}.fullwidth #pagelines_content #column-wrap, .fullwidth #buddypress-page #container{width:960px}.fullwidth #pagelines_content #sidebar-wrap, .fullwidth #buddypress-page #sidebar-wrap{width:0px}.one-sidebar-right #pagelines_content #column-main, .one-sidebar-right .wmain, .one-sidebar-right #buddypress-page #container{width:640px}.one-sidebar-right #pagelines_content #sidebar1, .one-sidebar-right #buddypress-page #sidebar1{width:320px}.one-sidebar-right #pagelines_content #sidebar2, .one-sidebar-right #buddypress-page #sidebar2{width:0px}.one-sidebar-right #pagelines_content #column-wrap, .one-sidebar-right #buddypress-page #container{width:640px}.one-sidebar-right #pagelines_content #sidebar-wrap, .one-sidebar-right #buddypress-page #sidebar-wrap{width:320px}.one-sidebar-left #pagelines_content #column-main, .one-sidebar-left .wmain, .one-sidebar-left #buddypress-page #container{width:640px}.one-sidebar-left #pagelines_content #sidebar1, .one-sidebar-left #buddypress-page #sidebar1{width:320px}.one-sidebar-left #pagelines_content #sidebar2, .one-sidebar-left #buddypress-page #sidebar2{width:0px}.one-sidebar-left #pagelines_content #column-wrap, .one-sidebar-left #buddypress-page #container{width:640px}.one-sidebar-left #pagelines_content #sidebar-wrap, .one-sidebar-left #buddypress-page #sidebar-wrap{width:320px}.two-sidebar-right #pagelines_content #column-main, .two-sidebar-right .wmain, .two-sidebar-right #buddypress-page #container{width:480px}.two-sidebar-right #pagelines_content #sidebar1, .two-sidebar-right #buddypress-page #sidebar1{width:240px}.two-sidebar-right #pagelines_content #sidebar2, .two-sidebar-right #buddypress-page #sidebar2{width:240px}.two-sidebar-right #pagelines_content #column-wrap, .two-sidebar-right #buddypress-page #container{width:480px}.two-sidebar-right #pagelines_content #sidebar-wrap, .two-sidebar-right #buddypress-page #sidebar-wrap{width:480px}.two-sidebar-left #pagelines_content #column-main, .two-sidebar-left .wmain, .two-sidebar-left #buddypress-page #container{width:480px}.two-sidebar-left #pagelines_content #sidebar1, .two-sidebar-left #buddypress-page #sidebar1{width:240px}.two-sidebar-left #pagelines_content #sidebar2, .two-sidebar-left #buddypress-page #sidebar2{width:240px}.two-sidebar-left #pagelines_content #column-wrap, .two-sidebar-left #buddypress-page #container{width:480px}.two-sidebar-left #pagelines_content #sidebar-wrap, .two-sidebar-left #buddypress-page #sidebar-wrap{width:480px}.two-sidebar-center #pagelines_content #column-main, .two-sidebar-center .wmain, .two-sidebar-center #buddypress-page #container{width:480px}.two-sidebar-center #pagelines_content #sidebar1, .two-sidebar-center #buddypress-page #sidebar1{width:240px}.two-sidebar-center #pagelines_content #sidebar2, .two-sidebar-center #buddypress-page #sidebar2{width:240px}.two-sidebar-center #pagelines_content #column-wrap, .two-sidebar-center #buddypress-page #container{width:720px}.two-sidebar-center #pagelines_content #sidebar-wrap, .two-sidebar-center #buddypress-page #sidebar-wrap{width:240px}.dcol_container_2{width: 980px; float: right;}.dcol_2{width: 470px; margin-left: 20px;}.dcol_container_3{width: 980px; float: right;}.dcol_3{width: 306px; margin-left: 20px;}.dcol_container_4{width: 980px; float: right;}.dcol_4{width: 225px; margin-left: 20px;}.dcol_container_5{width: 980px; float: right;}.dcol_5{width: 176px; margin-left: 20px;}body, body.fixed_width{background-color:#000000;}body #page, .sf-menu li, #primary-nav ul.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active, .commentlist ul.children .even, .alt #commentform textarea{background-color:#FFFFFF;}hr, .fpost, .clip_box, .widget-title, #buddypress-page .item-list li, .metabar a, #morefoot .widget-title, #site #dsq-content h3, .post.fpost .entry, #soapbox .fboxinfo,  #primary-nav #nav_row, .fpost.sticky{border-color:#E9E9E9;}h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a.site-title, .entry-title a, .entry-title a:hover, .widget-title a:hover, h3.widget-title a:hover{color:#000000;}#page, .tcolor1, #subnav ul li a:active, .commentlist cite a, #breadcrumb a, .metabar a:hover, .post-nav a:hover, .post-footer a, #buddypress-page #object-nav ul li a, #buddypress-page table.forum .td-title a, #buddypress-page #subnav a:hover, #buddypress-page #subnav li.current a, #twitterbar a, #carousel .carousel_text, #site #dsq-content .dsq-request-user-info td a, #pagination .wp-pagenavi a:hover, #pagination .wp-pagenavi .current, #featurenav a.activeSlide, .content-pagination a:hover .cp-num{color:#000000;}.tcolor2, .lcolor2 a, .subhead, .widget-title,  .post-edit-link, .metabar .sword, #branding .site-description, #callout, #commentform .required, #postauthor .subtext, #buddypress-page .standard-form .admin-links, #wp-calendar caption, #carousel .thecarousel, #pagination .wp-pagenavi span.pages, .commentlist .comment-meta  a,  #highlight .highlight-subhead, .content-pagination span, .content-pagination a .cp-num, .searchform .searchfield{color:#AFAFAF;}.tcolor3, .lcolor3 a, .main_nav li a,  .widget-title a, h3.widget-title a, #subnav_row li a, .metabar em, .metabar a, .tags, #commentform label, .form-allowed-tags code, .rss-date, #breadcrumb, .reply a, .post-nav a, .post-nav a:visited, .post-footer, .auxilary a, #buddypress-page .standard-form .admin-links a, #twitterbar .content .tbubble, .widget ul.twitter .twitter-item, .cform .emailreqtxt,.cform .reqtxt, #pagination .wp-pagenavi a, #pagination .wp-pagenavi .current, #pagination .wp-pagenavi .extend, .main_nav ul.sf-menu a, .sf-menu a:visited, #featurenav a, #feature-footer span.playpause{color:#777777;}a, #subnav_row li.current_page_item a, #subnav_row li a:hover, #grandchildnav .current_page_item > a, .branding h1 a:hover, .post-comments a:hover, .bbcrumb a:hover, 	#feature_slider .fcontent.fstyle-lightbg a, #feature_slider .fcontent.fstyle-nobg a{color:#225E9B;}a:hover,.commentlist cite a:hover,  #grandchildnav .current_page_item a:hover, .headline h1 a:hover{color:#0F457C;}#feature-footer, .main-nav li.current-page-ancestor a, .main-nav li.current_page_item a, .main-nav li.current-page-ancestor ul a, .main-nav li.current_page_item ul a, #wp-calendar caption, #buddypress-page #subnav, #buddypress-page .activity .activity-inner, #buddypress-page table.forum th, #grandchildnav.widget, blockquote, input, textarea, .searchform .searchfield, .wp-caption, .widget-default, .commentlist .alt, #wp-calendar #today, #buddypress-page div.activity-comments form .ac-textarea, #buddypress-page form#whats-new-form #whats-new-textarea, .post-nav, .current_posts_info, .post-footer,  #twitterbar, #carousel .content-pad, .success, .sf-menu li li, .sf-menu li li, .sf-menu li li li, .content-pagination a .cp-num, .hentry table .alternate td{background:#F7F7F7;}ul.sf-menu ul li, .post-nav, .current_posts_info, .post-footer, blockquote, input, textarea, .searchform .searchfield, .wp-caption, .widget-default, #buddypress-page div.activity-comments form .ac-textarea, #buddypress-page form#whats-new-form #whats-new-textarea, #grandchildnav.widget, .fpost .post-thumb img, .clip .clip-thumb img, .author-thumb img, #carousel .content ul li a img, #carousel .content ul li a:hover img, #feature-footer{border-color:#E9E9E9;}blockquote, input, textarea, .searchform .searchfield, .wp-caption, .widget-default, #buddypress-page div.activity-comments form .ac-textarea, #buddypress-page form#whats-new-form #whats-new-textarea, #grandchildnav.widget, fpost .post-thumb img, .clip .clip-thumb img, .author-thumb img{border-left-color:#DDDDDD;}blockquote, input, textarea, .searchform .searchfield, .wp-caption, .widget-default, #buddypress-page div.activity-comments form .ac-textarea, #buddypress-page form#whats-new-form #whats-new-textarea, #grandchildnav.widget, fpost .post-thumb img, .clip .clip-thumb img, .author-thumb img{border-top-color:#DDDDDD;}#feature-footer .feature-footer-pad{border-left-color:#FFFFFF;}#feature-footer .feature-footer-pad{border-top-color:#FFFFFF;}#feature-footer, #grandchildnav li a, #grandchildnav .current_page_item  ul li a, #buddypress-page #object-nav ul li a{ text-shadow:#FFFFFF 0 1px 0;}#wp-calendar thead th, #buddypress-page #object-nav, .item-avatar a, .comment blockquote, #grandchildnav .current_page_item a, #grandchildnav li a:hover, #grandchildnav .current_page_item  ul li a:hover, #carousel .carousel_text, pagination .wp-pagenavi a, #pagination .wp-pagenavi .current, #pagination .wp-pagenavi .extend, .sf-menu li:hover, .sf-menu li.sfHover, #featurenav a, #feature-footer span.playpause, .content-pagination .cp-num, .content-pagination a:hover .cp-num, ins{background:#F1F1F1;}#featurenav a, #feature-footer span.playpause{border-color:#DDDDDD;}#featurenav a, #feature-footer span.playpause{border-left-color:#CCCCCC;}#featurenav a, #feature-footer span.playpause{border-top-color:#CCCCCC;}#buddypress-page #object-nav ul li a:hover,#buddypress-page #object-nav ul li.selected a, #buddypress-page #subnav a:hover, #buddypress-page #subnav li.current a, #featurenav a.activeSlide{background:#E1E1E1;}#featurenav a.activeSlide{border-color:#CCCCCC;}#featurenav a.activeSlide{border-left-color:#999999;}#featurenav a.activeSlide{border-top-color:#999999;}#footer, #footer li.link-list a, #footer .latest_posts li .list-excerpt{color:#999999;}#footer a, #footer .widget-title,  #footer li h5 a{color:#FFFFFF;}#footer, .fixed_width #footer{ text-shadow:#000000 0 -1px 0;}
+</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+<body class="single single-post postid-252 single-format-standard full_width ttype-single tmain-single">
+<div id="site" class="one-sidebar-right"> <!-- #site // Wraps #header, #page-main, #footer - closed in footer -->
+	<div id="page"> <!-- #page // Wraps #header, #page-main - closed in footer -->
+		<div id="page-canvas">
+						<div id="header" class="container-group fix">
+				<div class="outline">
+					<div id="branding" class="container fix">
+	<div class="texture">
+		<div class="content">
+			<div class="content-pad">
+<div class="branding_wrap">
+	<div class="title-container"><a class="home site-title" href="https://skimfeed.com/blog" title="Home">SkimFeed.com</a><h6 class="site-description subhead"></h6></div>		
+	
+	<div class="icons" style="bottom: 0px; right: px;">
+
+		
+																			</div>
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="primary-nav" class="container fix">
+	<div class="texture">
+		<div class="content">
+			<div class="content-pad">
+	<div id="nav_row" class="main_nav fix">
+	
+	<ul id="menu-nav" class="main-nav">
+			</ul><form method="get" class="searchform" action="https://skimfeed.com/blog/" onsubmit="this.submit();return false;">
+	<fieldset>
+		<input type="text" value="Search" name="s" class="searchfield" onfocus="if (this.value == &#39;Search&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search&#39;;}">
+
+		<input type="image" class="submit btn" name="submit" src="./Windows Command Prompt LS Equivalent Dir_files/search-btn.png" alt="Go">
+	</fieldset>
+</form>
+	</div>
+
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+				</div>
+			</div>
+						<div id="page-main" class="container-group fix"> <!-- #page-main // closed in footer -->
+				<div id="dynamic-content" class="outline fix">
+					<div id="maincontent" class="container fix">
+	<div class="texture">
+		<div class="content">
+			<div class="content-pad">
+<div id="pagelines_content" class="one-sidebar-right fix">
+	
+		<div id="column-wrap" class="fix">
+		
+				<div id="column-main" class="mcolumn fix">
+			<div class="mcolumn-pad">
+				<div id="theloop" class="copy fix">
+	<div class="copy-pad">
+<div class="fpost post-252 post type-post status-publish format-standard hentry category-tutorial tag-windows-command-prompt-and-linux-commands" id="post-252">
+				
+				
+					
+						<div class="post-meta fix">	
+							
+							<div class="post-header fix post-nothumb" style="">
+																<div class="post-title-section fix">
+
+									<div class="post-title fix">
+										
+										<h1 class="entry-title">Windows Command Prompt LS Equivalent Dir</h1>
+<div class="metabar"><em><span class="sword">By</span> <span class="author vcard"><span class="fn"><a href="https://skimfeed.com/blog/author/admin/" title="Posts by admin" rel="author">admin</a></span></span> <span class="sword">On</span> <span class="date time published" title="2013-06-14T19:43:44+0000">June 14, 2013</span>  · <span class="post-comments"><a href="https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/#comments">Leave a Comment</a></span>  </em></div>										
+									</div>
+
+
+								</div>
+															</div>				
+						</div>
+					
+					  	
+						<div class="entry_wrap fix">
+						
+							<div class="entry_content">
+								<p>Question: What is the equivalent of typing ls to list folders and files in Linux in a Windows command prompt?</p>
+<div style="text-align:center;margin-left:auto;margin-right:auto;margin-top:8px;margin-bottom:8px;"><b style="font-size:20px">Breaking News - <a href="http://skimfeed.com/index.html?a=1">click here!</a></b>
+<br><br></div><p>Answer: Type DIR to show the folders and files in command prompt.&nbsp; DIR is the MS DOS version of LS, which lists the files and folders in the current directory.&nbsp; Here is a huge list of all the Linus terminal commands and their Windows equivalents.</p>
+<p>To get help on a Windows command, use the <code>/?</code> option, for example <code>date /?</code>.</p>
+<table id="win2unix">
+<tbody>
+<tr>
+<th id="windows">Windows command</th>
+<th id="unix">Unix command</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td><code>arp</code></td>
+<td><code><a href="http://www.nxmnpg.com/arp" target="_blank">arp</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>assign</code></td>
+<td><code><a href="http://www.nxmnpg.com/ln" target="_blank">ln</a></code></td>
+<td>Create a file link</td>
+</tr>
+<tr>
+<td><code>assign</code></td>
+<td><code><a href="http://www.nxmnpg.com/ln" target="_blank">ln</a> -s</code></td>
+<td>On Unix, a directory may not have multiple links, so instead a symbolic link must be created with <code>ln -s</code>.</td>
+</tr>
+<tr>
+<td><code>assoc</code></td>
+<td><code><a href="http://www.nxmnpg.com/file" target="_blank">file</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>at</code></td>
+<td><code><a href="http://www.nxmnpg.com/at" target="_blank">at</a><br>
+<a href="http://www.nxmnpg.com/batch" target="_blank">batch</a><br>
+<a href="http://www.nxmnpg.com/cron" target="_blank">cron</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>attrib</code></td>
+<td><code><a href="http://www.nxmnpg.com/chown" target="_blank">chown</a><br>
+<a href="http://www.nxmnpg.com/chmod" target="_blank">chmod</a></code></td>
+<td>Sets ownership on files and directories</td>
+</tr>
+<tr>
+<td><code>cd</code></td>
+<td><code><a href="http://www.nxmnpg.com/cd" target="_blank">cd</a></code></td>
+<td>On Windows, <code>cd</code> alone prints the current directory, but on Unix <code>cd</code> alone returns the user to his home directory.</td>
+</tr>
+<tr>
+<td><code>cd</code></td>
+<td><code><a href="http://www.nxmnpg.com/pwd" target="_blank">pwd</a></code></td>
+<td>On Windows, <strong>cd</strong> alone prints the current directory.</td>
+</tr>
+<tr>
+<td><code>chkdsk</code></td>
+<td><code><a href="http://www.nxmnpg.com/fsck" target="_blank">fsck</a></code></td>
+<td>Checks filesystem and repairs filesystem corruption on hard drives.</td>
+</tr>
+<tr>
+<td><code>cls</code></td>
+<td><code><a href="http://www.nxmnpg.com/clear" target="_blank">clear</a></code></td>
+<td>Clear the terminal screen</td>
+</tr>
+<tr>
+<td><code>copy</code></td>
+<td><code><a href="http://www.nxmnpg.com/cp" target="_blank">cp</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>date<br>
+time</code></td>
+<td><code><a href="http://www.nxmnpg.com/date" target="_blank">date</a></code></td>
+<td><code>Date</code> on Unix prints the current date and time. <code>Date</code> and <code>time</code> on Windows print the date and time respectively, and prompt for a new date or time.</td>
+</tr>
+<tr>
+<td><code>del</code></td>
+<td><code><a href="http://www.nxmnpg.com/rm" target="_blank">rm</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>deltree</code></td>
+<td><code><a href="http://www.nxmnpg.com/rm" target="_blank">rm</a> -r</code></td>
+<td>Recursively deletes entire directory tree</td>
+</tr>
+<tr>
+<td><code>dir</code></td>
+<td><code><a href="http://www.nxmnpg.com/ls" target="_blank">ls</a></code></td>
+<td>“dir” also works on some versions of Unix.</td>
+</tr>
+<tr>
+<td><code>doskey /h<br>
+F7 key</code></td>
+<td><code><a href="http://www.nxmnpg.com/history" target="_blank">history</a></code></td>
+<td>The Unix <code>history</code> is part of the Bash shell.</td>
+</tr>
+<tr>
+<td><code>edit</code></td>
+<td><code>vi<br>
+emacs<br>
+etc.</code></td>
+<td><code>edit</code> brings up a simple text editor in Windows. On Unix, the environment variable <code>EDITOR</code> should be set to the user’s preferred editor.</td>
+</tr>
+<tr>
+<td><code>exit</code></td>
+<td><code><a href="http://www.nxmnpg.com/exit" target="_blank">exit</a><br>
+Control-D</code></td>
+<td>On Unix, pressing the control key and D simultaneously logs the user out of the shell.</td>
+</tr>
+<tr>
+<td><code>explorer</code></td>
+<td><code>nautilus<br>
+etc.</code></td>
+<td>The command <code>explorer</code> brings up the file browser on Windows.</td>
+</tr>
+<tr>
+<td><code>fc</code></td>
+<td><code><a href="http://www.nxmnpg.com/diff" target="_blank">diff</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>find</code></td>
+<td><code><a href="http://www.nxmnpg.com/grep" target="_blank">grep</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>ftp</code></td>
+<td><code><a href="http://www.nxmnpg.com/ftp" target="_blank">ftp</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>help</code></td>
+<td><code><a href="http://www.nxmnpg.com/man" target="_blank">man</a></code></td>
+<td>“help” by itself prints all the commands</td>
+</tr>
+<tr>
+<td><code>hostname</code></td>
+<td><code><a href="http://www.nxmnpg.com/hostname" target="_blank">hostname</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>ipconfig /all</code></td>
+<td><code><a href="http://www.nxmnpg.com/ifconfig" target="_blank">ifconfig</a> -a</code></td>
+<td>The /all option lets you get the MAC address of the Windows PC</td>
+</tr>
+<tr>
+<td><code>mem</code></td>
+<td><code><a href="http://www.nxmnpg.com/top" target="_blank">top</a></code></td>
+<td>Shows system status</td>
+</tr>
+<tr>
+<td><code>mkdir</code></td>
+<td><code><a href="http://www.nxmnpg.com/mkdir" target="_blank">mkdir</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>more</code></td>
+<td><code><a href="http://www.nxmnpg.com/more" target="_blank">more</a><br>
+<a href="http://www.nxmnpg.com/less" target="_blank">less</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>move</code></td>
+<td><code><a href="http://www.nxmnpg.com/mv" target="_blank">mv</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>net session</code></td>
+<td><code><a href="http://www.nxmnpg.com/w" target="_blank">w</a><br>
+<a href="http://www.nxmnpg.com/who" target="_blank">who</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>net statistics</code></td>
+<td><code><a href="http://www.nxmnpg.com/uptime" target="_blank">uptime</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>nslookup</code></td>
+<td><code><a href="http://www.nxmnpg.com/nslookup" target="_blank">nslookup</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>ping</code></td>
+<td><code><a href="http://www.nxmnpg.com/ping" target="_blank">ping</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>print</code></td>
+<td><code>lpr</code></td>
+<td>Send a file to a printer.</td>
+</tr>
+<tr>
+<td><code>reboot<br>
+shutdown -r</code></td>
+<td><code><a href="http://www.nxmnpg.com/shutdown" target="_blank">shutdown</a> -r</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>regedit</code></td>
+<td><code>edit /etc/*</code></td>
+<td>The Unix equivalent of the Windows registry are the files under <code>/etc</code> and <code>/usr/local/etc</code>. These are edited with a text editor rather than with a special-purpose editing program.</td>
+</tr>
+<tr>
+<td><code>rmdir</code></td>
+<td><code><a href="http://www.nxmnpg.com/rmdir" target="_blank">rmdir</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>rmdir /s</code></td>
+<td><code><a href="http://www.nxmnpg.com/rm" target="_blank">rm</a> -r</code></td>
+<td>Windows has a y/n prompt. To get the prompt with Unix, use <code>rm -i</code>. The <code>i</code> means “interactive”.</td>
+</tr>
+<tr>
+<td><code>set</code></td>
+<td><code><a href="http://www.nxmnpg.com/env" target="_blank">env</a></code></td>
+<td><code>Set</code> on Windows prints a list of all environment variables. For individual environment variables, set &lt;variable&gt; is the same as echo $&lt;variable&gt; on Unix.</td>
+</tr>
+<tr>
+<td><code>set Path</code></td>
+<td><code>echo $PATH</code></td>
+<td>Print the value of the environment variable using <code>set</code> in Windows.</td>
+</tr>
+<tr>
+<td><code>shutdown</code></td>
+<td><code><a href="http://www.nxmnpg.com/shutdown" target="_blank">shutdown</a></code></td>
+<td>Without an option, the Windows version produces a help message</td>
+</tr>
+<tr>
+<td><code>shutdown -s</code></td>
+<td><code><a href="http://www.nxmnpg.com/shutdown" target="_blank">shutdown</a> -h</code></td>
+<td>Also need -f option to Windows if logged in remotely</td>
+</tr>
+<tr>
+<td><code>sort</code></td>
+<td><code><a href="http://www.nxmnpg.com/sort" target="_blank">sort</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>start</code></td>
+<td><code>&amp;</code></td>
+<td>On Unix, to start a job in the background, use <code>command &amp;</code>. On Windows, the equivalent is <code>start command</code>. See <a href="http://www.tomshardware.com/forum/34598-45-windows-command-background-unix">How to run a Windows command as a background job like Unix ?</a>.</td>
+</tr>
+<tr>
+<td><code>systeminfo</code></td>
+<td><code><a href="http://www.nxmnpg.com/uname" target="_blank">uname</a> -a</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>tasklist</code></td>
+<td><code><a href="http://www.nxmnpg.com/ps" target="_blank">ps</a></code></td>
+<td>“tasklist” is not available on some versions of Windows. See also <a href="http://www.lemoda.net/perl/win-ps-list/win-ps-list.html">this article on getting a list of processes in Windows using Perl</a></td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td><code>?</code></td>
+<td>In Unix, changing the title of the terminal window is possible but complicated. Search for “change title xterm”.</td>
+</tr>
+<tr>
+<td><code>tracert</code></td>
+<td><code><a href="http://www.nxmnpg.com/traceroute" target="_blank">traceroute</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>tree</code></td>
+<td><code><a href="http://www.nxmnpg.com/find" target="_blank">find</a><br>
+<a href="http://www.nxmnpg.com/ls" target="_blank">ls</a> -R</code></td>
+<td>On Windows, use tree | find “string”</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td><code><a href="http://www.nxmnpg.com/cat" target="_blank">cat</a></code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>ver</code></td>
+<td><code><a href="http://www.nxmnpg.com/uname" target="_blank">uname</a> -a</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>xcopy</code></td>
+<td><code><a href="http://www.nxmnpg.com/cp" target="_blank">cp</a> -R</code></td>
+<td>Recursively copy a directory tree</td>
+</tr>
+</tbody>
+</table>
+<style type="text/css">
+									#ssba img	{ 	
+													padding: 10px;
+													border:  0;
+													box-shadow: 0;
+													display: inline;
+												}
+								</style><div id="ssba"><center><a href="http://www.facebook.com/sharer.php?u=https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/" target="_blank"><img src="./Windows Command Prompt LS Equivalent Dir_files/facebook-small.png"></a><a href="http://twitter.com/share?url=https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/" target="_blank"><img src="./Windows Command Prompt LS Equivalent Dir_files/twitter-small.png"></a><a href="https://plus.google.com/share?url=https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/" target="_blank"><img src="./Windows Command Prompt LS Equivalent Dir_files/google-small.png"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/" target="_blank"><img src="./Windows Command Prompt LS Equivalent Dir_files/linkedin-small.png"></a><a target="_blank" href="javascript:void((function()%7Bvar%20e=document.createElement(&#39;script&#39;);e.setAttribute(&#39;type&#39;,&#39;text/javascript&#39;);e.setAttribute(&#39;charset&#39;,&#39;UTF-8&#39;);e.setAttribute(&#39;src&#39;,&#39;http://assets.pinterest.com/js/pinmarklet.js?r=&#39;+Math.random()*99999999);document.body.appendChild(e)%7D)());"><img src="./Windows Command Prompt LS Equivalent Dir_files/pinterest-small.png"></a></center></div><!-- Powered by Ad Inserter Wordpress Plugin, Author: Igor Funa -->									<div class="clear"></div> 
+																</div>	
+							<div class="tags">
+								Tagged with: <a href="https://skimfeed.com/blog/tag/windows-command-prompt-and-linux-commands/" rel="tag">Windows Command Prompt and Linux Commands</a><br>&nbsp;
+							</div>
+						</div>
+								</div>
+
+	<div class="clear"></div>
+	</div>
+</div>
+<div id="sharebar" class="copy fix">
+	<div class="copy-pad">
+			<div class="post-footer">
+
+					<div class="left">
+						If you enjoyed this article, please consider sharing it!	
+					</div>
+					<div class="right">
+																					<a href="http://reddit.com/submit?phase=2&amp;url=https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/&amp;title=Windows+Command+Prompt+LS+Equivalent+Dir" title="Share on Reddit" rel="nofollow" target="_blank"><img src="./Windows Command Prompt LS Equivalent Dir_files/ico-reddit.png" alt="Reddit"></a>
+														
+															<a href="http://www.facebook.com/sharer.php?u=https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/&amp;t=Windows+Command+Prompt+LS+Equivalent+Dir" title="Share on Facebook" rel="nofollow" target="_blank"><img src="./Windows Command Prompt LS Equivalent Dir_files/ico-facebook.png" alt="Facebook"></a>
+							 
+
+																							<a href="http://twitter.com/?status=Windows%20Command%20Prompt%20LS%20Equivalent%20Dir%20-%20https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/" title="Share on Twitter" rel="nofollow" target="_blank"><img src="./Windows Command Prompt LS Equivalent Dir_files/ico-twitter.png" alt="Twitter"></a>
+							 
+
+															<a href="http://del.icio.us/post?url=https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/&amp;title=Windows+Command+Prompt+LS+Equivalent+Dir" title="Share on Delicious" rel="nofollow" target="_blank"><img src="./Windows Command Prompt LS Equivalent Dir_files/ico-del.png" alt="Delicious"></a>
+														
+														
+														
+												</div>
+				<div class="clear"></div>
+			</div>
+	
+	<div class="clear"></div>
+	</div>
+</div>
+<div id="pl_comments" class="copy fix">
+	<div class="copy-pad">
+
+<div id="comments">
+	
+						<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="https://skimfeed.com/blog/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p>							<p class="comment-form-author"><label for="author">Name</label> <input id="author" name="author" type="text" value="" size="30"></p>
+<p class="comment-form-email"><label for="email">Email</label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes"></p>
+<p class="cptch_block"><br>	<input type="hidden" name="cptch_result" value="g/k="><input type="hidden" value="Version: 2.26">
+	4 + <input type="text" name="cptch_number" value="" maxlength="2" size="2" style="width:20px;margin-bottom:0;display:inline;font-size: 12px;width: 30px;"> = 8</p>												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" required="required"></textarea></p>						
+						<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="252" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>					</form>
+							</div><!-- #respond -->
+			</div>
+	<div class="clear"></div>
+	</div>
+</div>
+<div id="pagination" class="copy fix">
+	<div class="copy-pad">
+				
+		<div class="clear"></div>
+	</div>
+</div>
+			</div>
+		</div>
+		
+				
+	</div>	
+	
+	
+	<div id="sidebar-wrap" class="fix">
+			<div id="sidebar1" class="scolumn fix">
+				<div class="scolumn-pad">
+					<div id="sidebar_primary" class="copy fix">
+	<div class="copy-pad">
+	<ul id="list_sidebar_primary" class="sidebar_widgets fix">
+				<li id="recent-posts-2" class="widget_recent_entries widget fix"><div class="widget-pad">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="https://skimfeed.com/blog/install-and-find-netbeans-php-on-ubuntu-linux/">Install and Find Netbeans PHP on Ubuntu Linux</a>
+						</li>
+					<li>
+				<a href="https://skimfeed.com/blog/fast-lamp-stack-easy-setup-and-install-ubuntu-desktop-linux/">Fast LAMP Stack Easy Setup and Install – Ubuntu Desktop Linux</a>
+						</li>
+					<li>
+				<a href="https://skimfeed.com/blog/how-much-space-does-osx-mountain-lion-take-on-a-fresh-install/">How much space does OSX Mountain Lion take on a Fresh Install?</a>
+						</li>
+					<li>
+				<a href="https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/">Windows Command Prompt LS Equivalent Dir</a>
+						</li>
+					<li>
+				<a href="https://skimfeed.com/blog/symbolic-links-in-windows-for-pointing-a-folder-to-another-folder-on-an-external-hard-drive-or-ssd/">Symbolic Links in Windows for Pointing a Folder to Another Folder on an External Hard Drive or SSD</a>
+						</li>
+				</ul>
+		</div></li><li id="recent-comments-2" class="widget_recent_comments widget fix"><div class="widget-pad"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">admin</span> on <a href="https://skimfeed.com/blog/sleeping-dogs-best-settings/comment-page-1/#comment-3476">Sleeping Dogs Best Settings</a></li><li class="recentcomments"><span class="comment-author-link">Adrien</span> on <a href="https://skimfeed.com/blog/sleeping-dogs-best-settings/comment-page-1/#comment-3471">Sleeping Dogs Best Settings</a></li><li class="recentcomments"><span class="comment-author-link">Irfan</span> on <a href="https://skimfeed.com/blog/sleeping-dogs-spacebar-fix-the-election/comment-page-4/#comment-3376">Sleeping Dogs Spacebar Fix – “The Election”</a></li><li class="recentcomments"><span class="comment-author-link">Scooby whatitdoo</span> on <a href="https://skimfeed.com/blog/how-to-move-garageband-files-from-ipad-to-mac-without-itunes-using-icloud/comment-page-4/#comment-3234">How to move Garageband Files from IPad to Mac without iTunes Using iCloud</a></li><li class="recentcomments"><span class="comment-author-link">Psychotic Potatoe</span> on <a href="https://skimfeed.com/blog/uninstall-minecraft-windows-and-mac/comment-page-3/#comment-3226">Uninstall Minecraft – Windows and Mac</a></li></ul></div></li><li id="archives-2" class="widget_archive widget fix"><div class="widget-pad"><h3 class="widget-title">Archives</h3>		<ul>
+	<li><a href="https://skimfeed.com/blog/2014/03/">March 2014</a></li>
+	<li><a href="https://skimfeed.com/blog/2013/09/">September 2013</a></li>
+	<li><a href="https://skimfeed.com/blog/2013/06/">June 2013</a></li>
+	<li><a href="https://skimfeed.com/blog/2013/05/">May 2013</a></li>
+	<li><a href="https://skimfeed.com/blog/2013/04/">April 2013</a></li>
+	<li><a href="https://skimfeed.com/blog/2013/03/">March 2013</a></li>
+	<li><a href="https://skimfeed.com/blog/2013/02/">February 2013</a></li>
+	<li><a href="https://skimfeed.com/blog/2013/01/">January 2013</a></li>
+	<li><a href="https://skimfeed.com/blog/2012/11/">November 2012</a></li>
+	<li><a href="https://skimfeed.com/blog/2012/10/">October 2012</a></li>
+	<li><a href="https://skimfeed.com/blog/2012/09/">September 2012</a></li>
+		</ul>
+</div></li><li id="categories-2" class="widget_categories widget fix"><div class="widget-pad"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-45"><a href="https://skimfeed.com/blog/category/fashion/">Fashion</a>
+</li>
+	<li class="cat-item cat-item-99"><a href="https://skimfeed.com/blog/category/helpful/">Helpful</a>
+</li>
+	<li class="cat-item cat-item-78"><a href="https://skimfeed.com/blog/category/life-pro-tips/">Life Pro Tips</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="https://skimfeed.com/blog/category/lists/">Lists</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://skimfeed.com/blog/category/news-aggregator/">News Aggregator</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://skimfeed.com/blog/category/skimfeed/">SkimFeed</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://skimfeed.com/blog/category/tutorial/">Tutorial</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://skimfeed.com/blog/category/uncategorized/">Uncategorized</a>
+</li>
+		</ul>
+</div></li><li id="text-2" class="widget_text widget fix"><div class="widget-pad">			<div class="textwidget"><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-151837-11']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://nerdr.com/piwik/" : "http://nerdr.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="https://nerdr.com/piwik/piwik.js" type="text/javascript"></script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://nerdr.com/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code --></div>
+		</div></li>	</ul>
+	<div class="clear"></div>
+	</div>
+</div>
+	
+				</div>
+			</div>
+			</div>		
+
+</div>				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</div> <!-- END #dynamic-content -->
+
+<div id="morefoot_area"><div id="morefoot" class="container fix">
+	<div class="texture">
+		<div class="content">
+			<div class="content-pad">
+								<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="twitterbar" class="container fix">
+	<div class="texture">
+		<div class="content">
+			<div class="content-pad">
+<div class="tbubble">
+			Set your Twitter account name in your settings to use the TwitterBar Section.</div>				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="clear"></div>
+				
+</div> <!-- END #page-main from header -->
+</div> <!-- END #page-canvas from header -->
+</div> <!-- END #page from header -->
+
+<div id="footer">
+	<div class="outline fix"><div id="footcols" class="container fix">
+	<div class="texture">
+		<div class="content">
+			<div class="content-pad">
+			<div id="fcolumns_container" class="dcol_container_5 fix">
+				
+									<div class="dcol_5 dcol">
+						<div class="dcol-pad">
+															<h3 class="site-title">
+									<a class="home" href="https://skimfeed.com/blog" title="Home">
+										SkimFeed.com									</a>
+								</h3>
+													</div>
+					</div>
+					<div class="dcol_5 dcol">
+						<div class="dcol-pad">
+							<h3 class="widget-title">Pages</h3>
+								<div class="footer-links list-links"></div>
+
+						</div>
+					</div>
+					<div class="dcol_5 dcol">
+						<div class="dcol-pad">
+							<h3 class="widget-title">The Latest</h3>
+								<ul class="latest_posts">
+																		<li class="list-item fix">
+											<div class="list_item_text">
+												<h5><a class="list_text_link" href="https://skimfeed.com/blog/install-and-find-netbeans-php-on-ubuntu-linux/"><span class="list-title">Install and Find Netbeans PHP on Ubuntu Linux</span></a></h5>
+												<div class="list-excerpt">Continuing to set up my home server LAMP stack for programming I&nbsp;[…]</div>
+											</div>
+										</li>
+								</ul>
+						</div>
+					</div>
+					<div class="dcol_5 dcol">
+						<div class="dcol-pad">
+							<h3 class="widget-title">More</h3>
+							<div class="findent footer-more">
+								Thanks for dropping by! Feel free to join the discussion by leaving comments, and stay updated by subscribing to the <a href="http://skimfeed.com/blog/feed/">RSS feed</a>.							</div>
+						</div>
+					</div>
+					<div class="dcol_5 dcol">
+						<div class="dcol-pad">
+							<div class="findent terms">
+								© 2012 SkimFeed.com All The News Blog							</div>
+						</div>
+					</div>
+							</div>	
+			<div class="clear"></div>
+						<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cred" class="pagelines"><a class="plimage" target="_blank" href="http://www.pagelines.com/" title="PageLines"><img src="./Windows Command Prompt LS Equivalent Dir_files/pagelines.png" alt="Platform by PageLines"></a></div><div class="clear"></div></div>
+</div>
+</div>
+<script type="text/javascript" src="./Windows Command Prompt LS Equivalent Dir_files/superfish.js.download"></script>
+<script type="text/javascript" src="./Windows Command Prompt LS Equivalent Dir_files/jquery.bgiframe.min.js.download"></script>
+<script type="text/javascript" src="./Windows Command Prompt LS Equivalent Dir_files/comment-reply.min.js.download"></script>
+
+</body></html>
