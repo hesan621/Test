@@ -25,7 +25,7 @@ source = scene.objects
 main_arm = source.get('Armature')
 ob = bge.logic.getCurrentController().owner
 print("Hi World")
-
+print("GotoClass")
 
 def updateAngles():
 	ser.write("a".encode('UTF-8'))
